@@ -39,7 +39,7 @@ TODO: the string literal 'JavaScript is Awesome!'.
 */
 
 // * Add your code BELOW here
-let myClass = 'JavaScript is Awesome!';
+
 // * Don't mess with the test code below here!
 
 test('myClass', () => {
@@ -60,7 +60,7 @@ TODO: Remember to use single-quotes for the empty string.
 */
 
 // * Add your code BELOW here
-let emptyString = '';
+
 // * Don't mess with the test code below here!
 
 test('emptyString', () => {
@@ -84,7 +84,7 @@ TODO: string with exactly 6 alphanumeric characters in it.
 */
 
 // * Add your code BELOW here
-let petName = 'Truddy';
+
 // * Don't mess with the test code below here!
 
 test('petName', () => {
@@ -106,7 +106,7 @@ TODO: assign it any word that starts with a capital A.
 */
 
 // * Add your code BELOW here
-const firstLetterIsA = 'Apple';
+
 // * Don't mess with the test code below here!
 
 test('firstLetterIsA', () => {
@@ -132,7 +132,7 @@ TODO: and two is not a space but an escaped horizontal tab character.
 */
 
 // * Add your code BELOW here
-let counting = 'one\ttwo';
+
 // * Don't mess with the test code below here!
 
 test('counting', () => {
@@ -156,7 +156,7 @@ TODO: assigned variable petName (from Skill 3).
 */
 
 // * Add your code BELOW here
-let mySentence = 'Hello, ' + petName;
+
 // * Don't mess with the test code below here!
 
 test('mySentence', () => {
@@ -184,7 +184,7 @@ TODO: for a JavaScript expression inside a template literal.
 */
 
 // * Add your code BELOW here
-let helloPet = `Hello, ${petName}`;
+
 // * Don't mess with the test code below here!
 
 test('helloPet', () => {
@@ -195,37 +195,7 @@ test('helloPet', () => {
 
 /*
 
-! SKILL 8 Understanding string immutability - part 1 🍎
-
-? Primitive values like numbers and strings are immutable.
-? When you reassign a variable to a new primitive value, the
-? original primitive value is not changed.
-? It is just not available in the code using that variable name.
-
-TODO: This skill requires 2 lines of code.
-TODO: In line 1: Use the let keyword to create a variable called myState and
-TODO: assign it to the string literal 'California'.
-TODO: In line 2: Assign the first letter to 'K" using the code: myState[0] = 'K';
-
-? the below test for myState matching 'Kalifornia" will fail because the string
-? is immutable and didn't change.
-*/
-
-// // * Add your code BELOW here
-// let myState = 'California';
-// myState[0] = 'K';
-// // * Don't mess with the test code below here!
-
-// test('myState', () => {
-//   expect(typeof myState).toBe('string');
-//   expect(myState).toHaveLength(10);
-//   expect(myState).not.toMatch(/^Kalifornia$/gm);
-//   expect(myState).toBe('California');
-// });
-
-/*
-
-! SKILL 9 Understanding string immutability - part 2 🍎
+! SKILL 9 Understanding string immutability 🍎
 
 
 ? In JavaScript, strings are immutable. This means that once a string is
@@ -239,12 +209,12 @@ TODO: the string literal 'I dunno!'.
 TODO: In line 2: Reassign thisMonth to the string literal 'September'.
 
 ? The below test for thisMonth matching 'I dunno!' will fail because the
-? variable has been reassigned to a different string.
+? variable has been reassigned to a different string. What it previously
+?
 */
 
 // * Add your code BELOW here
-let thisMonth = 'I dunno!';
-thisMonth = 'September';
+
 // * Don't mess with the test code below here!
 
 test('thisMonth', () => {
@@ -278,10 +248,7 @@ TODO: In the below area, you will practice making template literals
 // TODO: You must use the template literal syntax
 
 // * Add your code BELOW here
-let year = 2001;
-let firstName = 'John';
-let lastName = 'Smith';
-let message = `Hi, my name is ${firstName} ${lastName} and I was born in ${year}`;
+
 // * Don't mess with the test code below here!
 
 test('creating a message', () => {
@@ -300,9 +267,6 @@ test('creating a message', () => {
 // ${price + tax}
 
 // * Add your code BELOW here
-let tax = 8.25;
-let price = 100;
-let total = `Your total including tax is $${price + tax}`;
 
 // * Don't mess with the test code below here!
 
@@ -317,9 +281,7 @@ test('creating a total', () => {
 // TODO: such that you get the string - '<h1>JavaScript</h1><h2>HTML</h2><p>This is a paragraph</p>'
 
 // * Add your code BELOW here
-let heading1 = 'JavaScript';
-let heading2 = 'HTML';
-let html = `<h1>${heading1}</h1><h2>${heading2}</h2><p>This is a paragraph</p>`;
+
 // * Don't mess with the test code below here!
 
 test('html', () => {
